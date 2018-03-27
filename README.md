@@ -1,2 +1,4 @@
-# cpplinq_examples
+# CPPLINQ Examples
+-------------------
+
 Examples for cpplinq
