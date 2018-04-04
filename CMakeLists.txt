@@ -1,4 +1,3 @@
-cmake_minimum_required (VERSION 3.11.0)
 cmake_minimum_required (VERSION 3.10.0)
 
 # Project step I: Check dependencies
@@ -10,6 +9,7 @@ include(CheckCXXSourceRuns)
 # Project step II: Set up project name
 # ------------------------------------------------------------------------------------------------------
 set(PROJ_MAIN_NAME cpplinq_examples)
+project(${PROJ_MAIN_NAME})
 
 # Required libraries, flags, and include files for compiling and linking against CPPLINQ (all targets)
 set(CPPLINQ_EXAMPLES_EXTRA_LIBS "")
