@@ -4,7 +4,13 @@ project(${PROJ_NAME})
 
 include_directories( ${CPPLINQ_EXAMPLES_EXTRA_INCS} )
 
-add_executable(${PROJ_NAME} example1.cpp)
+file(GLOB SRC
+    "*.h"
+	"*.hpp"
+    "*.cpp"
+)
+
+add_executable(${PROJ_NAME} ${SRC})
 
 target_link_libraries(${PROJ_NAME} ${CPPLINQ_EXAMPLES_EXTRA_LIBS})
 
