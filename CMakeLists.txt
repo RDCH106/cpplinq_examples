@@ -18,7 +18,7 @@ set(CPPLINQ_EXAMPLES_EXTRA_INCS "")
 
 # Project step III: Add CPPLINQ VAR
 # ------------------------------------------------------------------------------------------------------
-list(APPEND CPPLINQ_EXAMPLES_EXTRA_INCS "${CMAKE_CURRENT_SOURCE_DIR}/CppLinq")
+list(APPEND CPPLINQ_EXAMPLES_EXTRA_INCS "${CMAKE_CURRENT_SOURCE_DIR}/cpplinq")
 MESSAGE("Using CPPLINQ from: ${CPPLINQ_EXAMPLES_EXTRA_INCS}")
 
 # Project step IV: Add samples
