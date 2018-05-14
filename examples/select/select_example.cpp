@@ -2,7 +2,7 @@
 #include <random>
 #include <chrono>
 #include <thread>
-#include "CppLinq\cpplinq.hpp"
+#include "cpplinq.hpp"
 
 using namespace std;
 using namespace cpplinq;
