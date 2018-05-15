@@ -1,7 +1,4 @@
 version: '{build}'
-branches:
-  only:
-  - master
 
 install:
     # Git clone happens between init and install 
