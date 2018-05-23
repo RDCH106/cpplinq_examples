@@ -127,8 +127,6 @@ void SelectExample()
 		cout << "Name: " << item.GetName() << " Age: " << item.GetAge() << " ID: " << item.GetID() << endl;
 }
 
-
-
 int main()
 {	
 	SumExample();

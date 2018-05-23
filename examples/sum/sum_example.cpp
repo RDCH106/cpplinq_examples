@@ -30,7 +30,7 @@ void SumExample()
 }
 
 int main()
-{	
+{
 	SumExample();
   do
   {

@@ -30,7 +30,7 @@ void AverageExample()
 }
 
 int main()
-{	
+{
 	AverageExample();
   do
   {

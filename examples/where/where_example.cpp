@@ -35,10 +35,10 @@ void WhereExample()
 }
 
 int main()
-{	
+{
 	WhereExample();
-  do
-  {
-    cout << '\n' << "Press enter to continue...";
-  } while (cin.get() != '\n');
+	do
+	{
+		cout << '\n' << "Press enter to continue...";
+	} while (cin.get() != '\n');
 }
