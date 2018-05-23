@@ -128,7 +128,7 @@ void SelectExample()
 }
 
 int main()
-{	
+{
 	SumExample();
 	AverageExample();
 	WhereExample1();
