@@ -16,7 +16,7 @@ void SumExample()
 	//Populate the list
 	list<int> lstInteger;
 	for (int i = 1; i < nListLenght; i++)
-		lstInteger.push_back(rand() % i * 3);
+		lstInteger.push_back(std::rand() % i * 3);
 
 	//Display values
 	cout << "List values:" << endl;
@@ -35,7 +35,7 @@ void AverageExample()
 	//Populate the list
 	list<int> lstInteger;
 	for (int i = 1; i < nListLenght; i++)
-		lstInteger.push_back(rand() % i * 3);
+		lstInteger.push_back(std::rand() % i * 3);
 
 	//Display values
 	cout << "List values:" << endl;
@@ -57,7 +57,7 @@ void WhereExample1()
 	//Populate the list
 	list<int> lstInteger;
 	for (int i = 1; i < nListLenght; i++)
-		lstInteger.push_back(rand() % i * 3);
+		lstInteger.push_back(std::rand() % i * 3);
 
 	//Display values
 	cout << "List values:" << endl;

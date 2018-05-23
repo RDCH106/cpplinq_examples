@@ -16,7 +16,7 @@ void SumExample()
 	//Populate the list
 	list<int> lstInteger;
 	for (int i = 1; i < nListLenght; i++)
-		lstInteger.push_back(rand() % i * 3);
+		lstInteger.push_back(std::rand() % i * 3);
 
 	//Display values
 	cout << "List values:" << endl;
