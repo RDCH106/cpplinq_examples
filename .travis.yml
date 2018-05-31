@@ -12,8 +12,6 @@ addons:
       - gcc-6
       - g++-6
       - cmake
-
-
 script:
   # Link gcc-6 and g++-6 to their standard commands
   - sudo ln -s /usr/bin/gcc-6 /usr/local/bin/gcc
@@ -24,8 +22,8 @@ script:
   # Check versions of gcc, g++ and cmake
   - gcc -v && g++ -v && cmake --version
   # Run your build commands next
-  - mkdir build    
-  - cd build  
+  - mkdir build
+  - cd build
   - cmake ..
   - ls
   - make -j4 && sudo make install

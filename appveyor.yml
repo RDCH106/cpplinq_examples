@@ -1,7 +1,7 @@
 version: '{build}'
 
 install:
-    # Git clone happens between init and install 
+    # Git clone happens between init and install
   - cmd: git submodule update --init --recursive
 
 clone_folder: c:\projects\cpp_linq_Examples
